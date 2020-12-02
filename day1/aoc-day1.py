@@ -8,7 +8,7 @@ def findPairs(arr, arr_size, sum):
         temp = sum-arr[i]
         mult = arr[i]*temp
         if (temp in s):
-            print ("Пара, дающая сумму "+ str(sum) +
+            print ("Пара, дающая сумму, "+ str(sum) +
             " - это (" + str(arr[i]) + ", " + str(temp) + ")" + " Ответ: " + str(mult))
         s.add(arr[i])
  
